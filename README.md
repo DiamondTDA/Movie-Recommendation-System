@@ -1,6 +1,6 @@
 # Movie Recommendation System
 
-## Part 1: Collaborative Filtering (Current)
+## Collaborative Filtering
 
 ### Overview
 This project is my submission for the ALX Movie Recommendation Hackathon on Kaggle. The primary objective is to predict user ratings for movies using historical rating data.
@@ -32,9 +32,5 @@ To guarantee 100% prediction coverage and preserve mathematical accuracy, I engi
 * **Tier 3 (The Ultimate Safety Net):** For entirely unknown movies that do not exist in the training data at all, the model fills any remaining gaps using the **Overall Dataset Mean**. This acts as a statistically neutral baseline, preventing submission errors and protecting the RMSE from extreme deviations.
 
 ---
-
-## Part 2: Content-Based Filtering (Coming Soon)
-
-Taking a short break to focus on my Engineering final exams. Once exams are over, I plan to dive into Content-Based and Hybrid approaches, utilizing movie metadata (cast, genres, etc.) to further optimize the model and improve the current RMSE score.
 
 *Built with Python, Pandas, Scikit-Learn. Submissions were compressed using gzip for efficient Kaggle uploads.*
